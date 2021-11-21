@@ -1,0 +1,7 @@
+{
+    title: 'json5 wjc',
+    owner: {
+        name: 'wjc',
+        sex: 'nan'
+    }
+}
