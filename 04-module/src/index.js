@@ -1,0 +1,17 @@
+import hello from "./hello";
+import imgsrc from '../assets/sun.png'
+import exampleTxt from '../assets/test.txt'
+hello()
+// console.log(imgsrc);
+// 运行webpack npx webpack
+// npx webpack --help
+// npx webpack --entry ./src/index.js --mode development  指定入口文件
+
+const img = document.createElement('img')
+img.src = imgsrc
+document.body.appendChild(img)
+
+const block = document.createElement('div')
+block.style.cssText = 'width:200px;height:200px;background:skyblue'
+block.textContent = exampleTxt
+document.body.appendChild(block)
